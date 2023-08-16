@@ -22,10 +22,6 @@ class CaixaDaLanchonete {
 
         for (let item of itens) {
 
-            if (!item) {
-                return "Item inválido!";
-            }
-
             let [nomeItem, quantidade] = item.split(',');
             quantidade = parseInt(quantidade, 10);
 
